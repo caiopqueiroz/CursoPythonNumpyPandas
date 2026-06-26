@@ -1,0 +1,17 @@
+📘 Módulo 0 — Revisão de Python
+
+Aula 0.1 — Objetos, variáveis e referências
+
+Aula 0.2 — Mutabilidade e cópias (copy e deepcopy)
+
+Aula 0.3 — Funções (def) de forma mais profunda
+
+Aula 0.4 — *args e **kwargs (introdução)
+
+Aula 0.5 — List comprehensions
+
+Aula 0.6 — Dicionários na prática
+
+Aula 0.7 — Sets
+
+Aula 0.8 — Exercícios gerais
