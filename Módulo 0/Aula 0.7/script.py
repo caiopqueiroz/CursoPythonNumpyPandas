@@ -31,3 +31,53 @@ def exemplo(a, b, *args, **kwargs):
     print(args)
     print(kwargs)
 exemplo(10, 20, 30, 40, cor='azul', tamanho='M')
+
+# Usando o operador de desempacotamento
+numeros = [1, 2, 3]
+print(*numeros)
+
+matriz_numeros = [
+    *[1, 2],
+    *[3, 4]
+]
+print(matriz_numeros)
+
+dicionario1 = {
+    'termo1': 1
+}
+dicionario2 = {
+    'termo2':  2
+}
+matriz_dicionario = {
+    **dicionario1,
+    **dicionario2
+}
+print(matriz_dicionario)
+
+# Ex 1:
+def f(*args):
+    print(args)
+f(10, 20, 30)
+
+# Ex 2:
+def f(**kwargs):
+    print(type(kwargs))
+f(nome='Caio', idade=19)
+
+# Ex 3:
+def maior(*args):
+    numeros = [numero for numero in args]
+    return max(numeros)
+print(maior(9, 18, 100, -1, 4))
+
+# Ex 4:
+def f(a, *args):
+    print(a)
+    print(args)
+f(5, 10, 15)
+
+# Desafio:
+def exemplo(*args, **kwargs):
+    print(args)
+    print(kwargs)
+exemplo(1, 2, nome='Caio', idade=19)
