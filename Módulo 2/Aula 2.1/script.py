@@ -47,3 +47,29 @@ print(series)
 # Ex 2:
 notas = pd.Series([8.0, 6.5, 9.3], index = ['Ana', 'Bruno', 'Carla'])
 print(notas)
+
+# Ex 3:
+idades = {
+    'Nome': ['Lucas', 'Sofia', 'Pedro'],
+    'Idade': [22, 21, 23]
+}
+df = pd.DataFrame(idades)
+print(df)
+print(df['Nome'])
+print(df['Idade'])
+
+# Ex 4:
+print(df.shape, df.columns, df.dtypes)
+
+# Desafio:
+dados = {
+    'Produto': ['Mouse', 'Teclado', 'Monitor', 'Webcam'],
+    'Preço': [80, 150, 900, 250],
+    'Estoque': [12, 7, 4, 10]
+}
+df = pd.DataFrame(dados)
+print(df)
+print(df.shape) # 4 linhas e 3 colunas
+print(df['Preço'])
+print(df[['Produto', 'Estoque']])
+print(df.to_numpy())
