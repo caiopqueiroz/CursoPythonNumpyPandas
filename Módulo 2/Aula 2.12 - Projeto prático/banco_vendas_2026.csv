@@ -1,0 +1,501 @@
+ID_Venda,Data,Cliente,Cidade,Estado,Categoria,Produto,Quantidade,Preço_Unitario,Desconto,Valor_Total,Forma_Pagamento,Vendedor
+1,2026-03-04,Helena,Porto Alegre,RS,Escritório,Cadeira,1,700,15,595.0,Cartão de Crédito,Alice
+2,2026-01-09,Ana,Recife,PE,Escritório,Luminária,5,180,0,900.0,Pix,Bianca
+3,2026-02-26,Otávio,Recife,PE,Informática,Mouse,5,80,0,400.0,Boleto,Alice
+4,2026-02-25,Karen,Rio de Janeiro,RJ,Informática,Notebook,3,3500,0,10500.0,Pix,Alice
+5,2026-06-04,Igor,Salvador,BA,Acessórios,Headset,3,320,20,768.0,Pix,Diego
+6,2026-06-10,Vanessa,Porto Alegre,RS,Escritório,Cadeira,4,700,0,2800.0,Boleto,Elisa
+7,2026-03-16,Carlos,Curitiba,PR,Informática,Mouse,1,80,15,68.0,Cartão de Crédito,Alice
+8,2026-02-11,Lucas,Salvador,BA,Acessórios,Webcam,4,250,15,850.0,Boleto,Bianca
+9,2026-05-17,Helena,Rio de Janeiro,RJ,Escritório,Mesa,1,1200,10,1080.0,Cartão de Crédito,Diego
+10,2026-01-15,Helena,Salvador,BA,Acessórios,Webcam,5,250,0,1250.0,Pix,Caio
+11,2026-02-24,Paula,Salvador,BA,Acessórios,Webcam,1,250,0,250.0,Cartão de Débito,Diego
+12,2026-05-30,Natália,Porto Alegre,RS,Informática,Monitor,2,900,0,1800.0,Cartão de Débito,Caio
+13,2026-01-13,Daniela,São Paulo,SP,Informática,Teclado,5,150,5,712.5,Cartão de Crédito,Bianca
+14,2026-04-08,Vanessa,Recife,PE,Escritório,Mesa,5,1200,0,6000.0,Cartão de Débito,Elisa
+15,2026-06-24,Sara,São Paulo,SP,Acessórios,Mousepad,1,40,15,34.0,Boleto,Caio
+16,2026-01-01,Igor,Goiânia,GO,Informática,Monitor,4,900,0,3600.0,Cartão de Crédito,Elisa
+17,2026-02-09,Lucas,Curitiba,PR,Informática,Monitor,5,900,10,4050.0,Cartão de Crédito,Elisa
+18,2026-01-05,Daniela,Goiânia,GO,Escritório,Cadeira,5,700,0,3500.0,Boleto,Caio
+19,2026-01-22,Paula,São Paulo,SP,Informática,Mouse,2,80,10,144.0,Pix,Elisa
+20,2026-03-09,Rafael,Rio de Janeiro,RJ,Informática,Teclado,4,150,10,540.0,Cartão de Débito,Bianca
+21,2026-04-13,Lucas,Porto Alegre,RS,Escritório,Luminária,2,180,15,306.0,Cartão de Débito,Elisa
+22,2026-03-28,Ana,São Paulo,SP,Acessórios,Headset,2,320,0,640.0,Cartão de Crédito,Elisa
+23,2026-02-28,Carlos,Belo Horizonte,MG,Informática,Mouse,1,80,15,68.0,Pix,Caio
+24,2026-02-24,Sara,Goiânia,GO,Informática,Teclado,3,150,15,382.5,Cartão de Crédito,Elisa
+25,2026-04-15,Gabriel,Goiânia,GO,Escritório,Mesa,2,1200,20,1920.0,Pix,Alice
+26,2026-04-30,Bruno,Recife,PE,Escritório,Mesa,3,1200,5,3420.0,Pix,Alice
+27,2026-03-05,Gabriel,São Paulo,SP,Acessórios,Mousepad,3,40,20,96.0,Cartão de Crédito,Elisa
+28,2026-04-29,Helena,Porto Alegre,RS,Acessórios,Headset,4,320,0,1280.0,Pix,Diego
+29,2026-01-24,Helena,Belo Horizonte,MG,Escritório,Cadeira,1,700,15,595.0,Cartão de Crédito,Diego
+30,2026-01-16,Fernanda,Recife,PE,Acessórios,Webcam,2,250,20,400.0,Cartão de Débito,Alice
+31,2026-06-28,Sara,Recife,PE,Acessórios,Webcam,4,250,0,1000.0,Cartão de Débito,Bianca
+32,2026-03-22,Bruno,Belo Horizonte,MG,Informática,Monitor,2,900,0,1800.0,Pix,Elisa
+33,2026-05-11,Carlos,Belo Horizonte,MG,Acessórios,Mousepad,5,40,0,200.0,Cartão de Crédito,Alice
+34,2026-05-26,Helena,São Paulo,SP,Escritório,Cadeira,2,700,5,1330.0,Pix,Elisa
+35,2026-03-08,Gabriel,Salvador,BA,Informática,Notebook,5,3500,10,15750.0,Boleto,Bianca
+36,2026-04-28,Karen,Porto Alegre,RS,Acessórios,Webcam,2,250,15,425.0,Pix,Alice
+37,2026-05-18,Gabriel,São Paulo,SP,Acessórios,Mousepad,5,40,0,200.0,Boleto,Bianca
+38,2026-02-10,Otávio,Porto Alegre,RS,Acessórios,Headset,2,320,0,640.0,Boleto,Elisa
+39,2026-06-19,Daniela,Porto Alegre,RS,Escritório,Luminária,1,180,15,153.0,Cartão de Crédito,Caio
+40,2026-03-14,Vanessa,Porto Alegre,RS,Informática,Mouse,5,80,0,400.0,Cartão de Crédito,Caio
+41,2026-01-14,Carlos,Porto Alegre,RS,Informática,Monitor,5,900,5,4275.0,Cartão de Débito,Caio
+42,2026-06-13,Igor,Rio de Janeiro,RJ,Informática,Mouse,3,80,20,192.0,Cartão de Crédito,Diego
+43,2026-01-29,Carlos,Belo Horizonte,MG,Escritório,Luminária,4,180,10,648.0,Cartão de Crédito,Elisa
+44,2026-04-21,Eduardo,Rio de Janeiro,RJ,Informática,Monitor,5,900,10,4050.0,Pix,Caio
+45,2026-06-20,Daniela,Curitiba,PR,Acessórios,Headset,3,320,0,960.0,Boleto,Elisa
+46,2026-02-15,Natália,Rio de Janeiro,RJ,Acessórios,Mousepad,2,40,0,80.0,Pix,Bianca
+47,2026-03-10,Fernanda,Curitiba,PR,Escritório,Mesa,4,1200,20,3840.0,Pix,Diego
+48,2026-03-31,Julia,Goiânia,GO,Informática,Notebook,2,3500,0,7000.0,Cartão de Crédito,Bianca
+49,2026-01-18,Igor,Porto Alegre,RS,Informática,Teclado,4,150,0,600.0,Boleto,Elisa
+50,2026-01-30,Igor,Belo Horizonte,MG,Acessórios,Mousepad,5,40,0,200.0,Cartão de Crédito,Elisa
+51,2026-03-30,Karen,Recife,PE,Acessórios,Headset,1,320,10,288.0,Cartão de Débito,Elisa
+52,2026-03-07,Bruno,Curitiba,PR,Escritório,Cadeira,4,700,10,2520.0,Cartão de Débito,Alice
+53,2026-01-18,Karen,Recife,PE,Escritório,Luminária,2,180,0,360.0,Boleto,Alice
+54,2026-03-25,Marcos,Recife,PE,Escritório,Mesa,5,1200,0,6000.0,Boleto,Elisa
+55,2026-06-23,Fernanda,Recife,PE,Informática,Teclado,4,150,15,510.0,Boleto,Diego
+56,2026-04-21,Tiago,Curitiba,PR,Escritório,Cadeira,3,700,0,2100.0,Boleto,Diego
+57,2026-02-13,Carlos,Goiânia,GO,Acessórios,Webcam,2,250,10,450.0,Boleto,Elisa
+58,2026-03-02,Julia,São Paulo,SP,Escritório,Luminária,5,180,0,900.0,Cartão de Crédito,Bianca
+59,2026-06-06,Carlos,Goiânia,GO,Informática,Mouse,1,80,0,80.0,Cartão de Débito,Diego
+60,2026-05-07,Marcos,Recife,PE,Escritório,Luminária,2,180,15,306.0,Cartão de Crédito,Bianca
+61,2026-04-19,Helena,São Paulo,SP,Escritório,Luminária,1,180,20,144.0,Cartão de Crédito,Elisa
+62,2026-04-27,Eduardo,São Paulo,SP,Acessórios,Headset,5,320,0,1600.0,Cartão de Débito,Elisa
+63,2026-06-06,Rafael,Goiânia,GO,Escritório,Luminária,3,180,20,432.0,Cartão de Débito,Elisa
+64,2026-03-05,Igor,Porto Alegre,RS,Acessórios,Headset,4,320,5,1216.0,Cartão de Débito,Bianca
+65,2026-03-02,Igor,Porto Alegre,RS,Acessórios,Webcam,1,250,15,212.5,Boleto,Caio
+66,2026-04-09,Eduardo,Curitiba,PR,Escritório,Cadeira,2,700,0,1400.0,Cartão de Crédito,Alice
+67,2026-04-17,Bruno,Goiânia,GO,Acessórios,Webcam,3,250,10,675.0,Cartão de Crédito,Diego
+68,2026-05-03,Ana,Recife,PE,Acessórios,Mousepad,1,40,20,32.0,Boleto,Caio
+69,2026-05-05,Helena,Curitiba,PR,Acessórios,Webcam,5,250,15,1062.5,Boleto,Diego
+70,2026-02-12,Otávio,Recife,PE,Acessórios,Headset,4,320,0,1280.0,Cartão de Crédito,Elisa
+71,2026-01-22,Natália,Belo Horizonte,MG,Escritório,Cadeira,4,700,10,2520.0,Cartão de Crédito,Diego
+72,2026-02-24,Otávio,Salvador,BA,Informática,Mouse,3,80,5,228.0,Boleto,Caio
+73,2026-05-01,Ana,São Paulo,SP,Acessórios,Webcam,4,250,0,1000.0,Pix,Caio
+74,2026-03-05,Gabriel,Belo Horizonte,MG,Informática,Mouse,1,80,20,64.0,Pix,Elisa
+75,2026-05-25,Gabriel,São Paulo,SP,Informática,Teclado,2,150,5,285.0,Cartão de Débito,Caio
+76,2026-02-11,Julia,São Paulo,SP,Acessórios,Headset,5,320,10,1440.0,Pix,Elisa
+77,2026-04-12,Gabriel,Recife,PE,Informática,Monitor,5,900,15,3825.0,Pix,Elisa
+78,2026-06-25,Vanessa,Porto Alegre,RS,Escritório,Luminária,2,180,0,360.0,Pix,Elisa
+79,2026-01-18,Rafael,Salvador,BA,Informática,Monitor,5,900,5,4275.0,Boleto,Alice
+80,2026-06-12,Otávio,Salvador,BA,Acessórios,Webcam,1,250,5,237.5,Cartão de Crédito,Diego
+81,2026-04-30,Natália,Goiânia,GO,Informática,Monitor,5,900,20,3600.0,Boleto,Caio
+82,2026-04-29,Tiago,Curitiba,PR,Informática,Mouse,3,80,5,228.0,Cartão de Débito,Caio
+83,2026-02-24,Lucas,Goiânia,GO,Informática,Notebook,3,3500,0,10500.0,Boleto,Caio
+84,2026-05-13,Gabriel,Belo Horizonte,MG,Acessórios,Mousepad,3,40,10,108.0,Pix,Bianca
+85,2026-06-26,Paula,Curitiba,PR,Escritório,Mesa,4,1200,10,4320.0,Cartão de Débito,Diego
+86,2026-06-27,Helena,Recife,PE,Informática,Mouse,3,80,0,240.0,Boleto,Elisa
+87,2026-04-19,Sara,Salvador,BA,Acessórios,Webcam,5,250,10,1125.0,Boleto,Caio
+88,2026-03-01,Daniela,Porto Alegre,RS,Escritório,Mesa,3,1200,0,3600.0,Cartão de Crédito,Caio
+89,2026-03-12,Tiago,Goiânia,GO,Informática,Teclado,2,150,0,300.0,Boleto,Alice
+90,2026-03-19,Ana,Rio de Janeiro,RJ,Informática,Monitor,2,900,0,1800.0,Cartão de Crédito,Caio
+91,2026-06-13,Paula,Rio de Janeiro,RJ,Informática,Mouse,5,80,0,400.0,Pix,Alice
+92,2026-03-29,Fernanda,Goiânia,GO,Escritório,Mesa,4,1200,5,4560.0,Pix,Caio
+93,2026-01-19,Tiago,Goiânia,GO,Acessórios,Headset,1,320,5,304.0,Pix,Bianca
+94,2026-05-23,Natália,São Paulo,SP,Informática,Monitor,1,900,0,900.0,Cartão de Crédito,Elisa
+95,2026-03-20,Tiago,Recife,PE,Acessórios,Webcam,4,250,0,1000.0,Pix,Elisa
+96,2026-03-09,Carlos,Curitiba,PR,Escritório,Cadeira,2,700,15,1190.0,Cartão de Crédito,Bianca
+97,2026-04-26,Vanessa,Recife,PE,Informática,Mouse,2,80,0,160.0,Cartão de Débito,Caio
+98,2026-06-29,Otávio,Porto Alegre,RS,Informática,Teclado,3,150,15,382.5,Pix,Bianca
+99,2026-04-19,Daniela,Curitiba,PR,Acessórios,Mousepad,5,40,15,170.0,Cartão de Crédito,Bianca
+100,2026-03-20,Vanessa,Rio de Janeiro,RJ,Acessórios,Headset,1,320,0,320.0,Boleto,Diego
+101,2026-03-11,Rafael,Recife,PE,Informática,Notebook,3,3500,15,8925.0,Cartão de Débito,Diego
+102,2026-06-04,Igor,Salvador,BA,Informática,Mouse,4,80,15,272.0,Pix,Alice
+103,2026-02-14,Paula,Belo Horizonte,MG,Informática,Mouse,3,80,10,216.0,Cartão de Débito,Caio
+104,2026-03-31,Natália,Goiânia,GO,Informática,Notebook,4,3500,0,14000.0,Boleto,Caio
+105,2026-06-27,Paula,Recife,PE,Escritório,Cadeira,2,700,0,1400.0,Boleto,Diego
+106,2026-03-06,Karen,Salvador,BA,Escritório,Cadeira,4,700,0,2800.0,Pix,Diego
+107,2026-01-14,Gabriel,Recife,PE,Escritório,Cadeira,5,700,5,3325.0,Boleto,Elisa
+108,2026-02-22,Igor,Belo Horizonte,MG,Acessórios,Mousepad,4,40,20,128.0,Cartão de Crédito,Caio
+109,2026-06-11,Vanessa,Belo Horizonte,MG,Acessórios,Mousepad,4,40,0,160.0,Cartão de Crédito,Bianca
+110,2026-01-24,Helena,Recife,PE,Acessórios,Mousepad,1,40,10,36.0,Pix,Diego
+111,2026-05-11,Igor,Porto Alegre,RS,Informática,Teclado,4,150,15,510.0,Cartão de Débito,Diego
+112,2026-04-09,Gabriel,Rio de Janeiro,RJ,Acessórios,Headset,4,320,10,1152.0,Cartão de Crédito,Alice
+113,2026-01-01,Julia,Porto Alegre,RS,Acessórios,Webcam,3,250,20,600.0,Boleto,Elisa
+114,2026-04-25,Sara,Rio de Janeiro,RJ,Escritório,Luminária,4,180,20,576.0,Cartão de Débito,Caio
+115,2026-03-24,Gabriel,Goiânia,GO,Acessórios,Mousepad,5,40,5,190.0,Cartão de Crédito,Elisa
+116,2026-05-02,Marcos,Salvador,BA,Acessórios,Headset,4,320,0,1280.0,Cartão de Débito,Bianca
+117,2026-01-26,Otávio,Salvador,BA,Acessórios,Headset,2,320,10,576.0,Pix,Elisa
+118,2026-01-20,Paula,Rio de Janeiro,RJ,Acessórios,Headset,2,320,5,608.0,Boleto,Caio
+119,2026-03-26,Sara,São Paulo,SP,Escritório,Luminária,4,180,15,612.0,Cartão de Débito,Caio
+120,2026-06-08,Carlos,Belo Horizonte,MG,Escritório,Luminária,4,180,20,576.0,Cartão de Crédito,Caio
+121,2026-04-24,Fernanda,São Paulo,SP,Informática,Mouse,4,80,0,320.0,Boleto,Alice
+122,2026-04-06,Natália,Salvador,BA,Informática,Monitor,1,900,0,900.0,Cartão de Crédito,Bianca
+123,2026-02-13,Fernanda,Rio de Janeiro,RJ,Escritório,Mesa,5,1200,15,5100.0,Pix,Elisa
+124,2026-03-01,Otávio,Rio de Janeiro,RJ,Acessórios,Mousepad,2,40,5,76.0,Boleto,Diego
+125,2026-03-15,Sara,Goiânia,GO,Acessórios,Mousepad,1,40,20,32.0,Cartão de Crédito,Alice
+126,2026-06-26,Igor,Recife,PE,Acessórios,Webcam,5,250,0,1250.0,Cartão de Débito,Caio
+127,2026-04-08,Tiago,Curitiba,PR,Informática,Notebook,4,3500,0,14000.0,Boleto,Elisa
+128,2026-03-12,Ana,Recife,PE,Acessórios,Mousepad,3,40,0,120.0,Pix,Elisa
+129,2026-06-05,Lucas,Curitiba,PR,Escritório,Mesa,3,1200,20,2880.0,Cartão de Crédito,Bianca
+130,2026-06-10,Bruno,São Paulo,SP,Escritório,Mesa,2,1200,15,2040.0,Boleto,Diego
+131,2026-03-25,Natália,Porto Alegre,RS,Informática,Monitor,2,900,0,1800.0,Cartão de Crédito,Bianca
+132,2026-02-12,Igor,Porto Alegre,RS,Informática,Monitor,5,900,10,4050.0,Cartão de Débito,Caio
+133,2026-02-06,Helena,São Paulo,SP,Escritório,Mesa,1,1200,5,1140.0,Cartão de Débito,Elisa
+134,2026-05-18,Daniela,Porto Alegre,RS,Acessórios,Headset,4,320,0,1280.0,Cartão de Débito,Caio
+135,2026-06-13,Lucas,Recife,PE,Escritório,Luminária,3,180,10,486.0,Pix,Bianca
+136,2026-06-06,Helena,Salvador,BA,Acessórios,Headset,5,320,10,1440.0,Pix,Diego
+137,2026-01-12,Bruno,Rio de Janeiro,RJ,Escritório,Mesa,4,1200,0,4800.0,Boleto,Diego
+138,2026-04-10,Otávio,Rio de Janeiro,RJ,Informática,Mouse,2,80,10,144.0,Boleto,Elisa
+139,2026-05-06,Vanessa,São Paulo,SP,Acessórios,Mousepad,2,40,5,76.0,Cartão de Débito,Caio
+140,2026-03-02,Lucas,Goiânia,GO,Informática,Monitor,2,900,5,1710.0,Pix,Caio
+141,2026-03-12,Gabriel,Recife,PE,Escritório,Luminária,3,180,0,540.0,Pix,Diego
+142,2026-03-27,Helena,Belo Horizonte,MG,Informática,Teclado,5,150,0,750.0,Cartão de Crédito,Elisa
+143,2026-03-01,Karen,Curitiba,PR,Informática,Mouse,5,80,0,400.0,Cartão de Crédito,Elisa
+144,2026-02-14,Daniela,Porto Alegre,RS,Informática,Monitor,2,900,0,1800.0,Pix,Bianca
+145,2026-01-05,Fernanda,Salvador,BA,Informática,Monitor,2,900,10,1620.0,Boleto,Alice
+146,2026-05-02,Otávio,São Paulo,SP,Informática,Notebook,5,3500,0,17500.0,Boleto,Elisa
+147,2026-06-07,Bruno,Curitiba,PR,Escritório,Cadeira,4,700,10,2520.0,Boleto,Diego
+148,2026-04-20,Daniela,Recife,PE,Escritório,Cadeira,1,700,5,665.0,Cartão de Débito,Diego
+149,2026-01-17,Eduardo,Rio de Janeiro,RJ,Informática,Mouse,3,80,10,216.0,Boleto,Elisa
+150,2026-04-08,Vanessa,Salvador,BA,Escritório,Luminária,5,180,15,765.0,Boleto,Diego
+151,2026-06-17,Sara,São Paulo,SP,Escritório,Luminária,4,180,0,720.0,Cartão de Crédito,Diego
+152,2026-04-13,Natália,Goiânia,GO,Acessórios,Headset,4,320,0,1280.0,Pix,Caio
+153,2026-06-25,Paula,Rio de Janeiro,RJ,Acessórios,Webcam,3,250,0,750.0,Pix,Alice
+154,2026-02-03,Sara,Salvador,BA,Informática,Mouse,4,80,0,320.0,Pix,Elisa
+155,2026-04-16,Lucas,São Paulo,SP,Escritório,Luminária,3,180,15,459.0,Cartão de Débito,Alice
+156,2026-05-28,Rafael,São Paulo,SP,Acessórios,Mousepad,3,40,0,120.0,Cartão de Crédito,Bianca
+157,2026-03-31,Sara,São Paulo,SP,Escritório,Mesa,2,1200,20,1920.0,Boleto,Alice
+158,2026-05-24,Vanessa,Recife,PE,Acessórios,Mousepad,2,40,20,64.0,Pix,Elisa
+159,2026-03-11,Julia,Rio de Janeiro,RJ,Escritório,Luminária,3,180,0,540.0,Boleto,Caio
+160,2026-01-18,Eduardo,Recife,PE,Informática,Teclado,2,150,10,270.0,Pix,Alice
+161,2026-04-27,Karen,Recife,PE,Escritório,Luminária,2,180,5,342.0,Cartão de Crédito,Caio
+162,2026-01-14,Eduardo,São Paulo,SP,Acessórios,Mousepad,3,40,20,96.0,Cartão de Crédito,Elisa
+163,2026-05-05,Vanessa,Recife,PE,Informática,Mouse,3,80,5,228.0,Cartão de Débito,Diego
+164,2026-04-21,Daniela,Salvador,BA,Acessórios,Headset,5,320,0,1600.0,Boleto,Elisa
+165,2026-04-12,Vanessa,Curitiba,PR,Acessórios,Mousepad,3,40,0,120.0,Pix,Alice
+166,2026-03-07,Julia,Rio de Janeiro,RJ,Informática,Monitor,2,900,20,1440.0,Boleto,Alice
+167,2026-04-08,Sara,Rio de Janeiro,RJ,Informática,Notebook,4,3500,0,14000.0,Cartão de Crédito,Elisa
+168,2026-01-11,Natália,Recife,PE,Escritório,Luminária,3,180,0,540.0,Pix,Diego
+169,2026-06-13,Natália,Recife,PE,Informática,Monitor,5,900,5,4275.0,Boleto,Alice
+170,2026-06-26,Lucas,Goiânia,GO,Acessórios,Headset,3,320,0,960.0,Pix,Diego
+171,2026-05-15,Carlos,Recife,PE,Informática,Teclado,4,150,10,540.0,Cartão de Débito,Caio
+172,2026-01-20,Rafael,Rio de Janeiro,RJ,Escritório,Mesa,2,1200,0,2400.0,Pix,Elisa
+173,2026-03-02,Daniela,Rio de Janeiro,RJ,Escritório,Cadeira,3,700,0,2100.0,Cartão de Crédito,Caio
+174,2026-02-15,Paula,São Paulo,SP,Informática,Teclado,5,150,0,750.0,Cartão de Débito,Elisa
+175,2026-06-10,Karen,Salvador,BA,Escritório,Mesa,5,1200,15,5100.0,Cartão de Crédito,Diego
+176,2026-03-12,Tiago,Porto Alegre,RS,Informática,Notebook,4,3500,15,11900.0,Pix,Caio
+177,2026-01-10,Bruno,Goiânia,GO,Escritório,Cadeira,3,700,5,1995.0,Boleto,Caio
+178,2026-04-29,Tiago,Recife,PE,Informática,Mouse,5,80,10,360.0,Pix,Diego
+179,2026-05-09,Eduardo,Goiânia,GO,Escritório,Luminária,2,180,0,360.0,Pix,Diego
+180,2026-01-11,Helena,Rio de Janeiro,RJ,Informática,Monitor,1,900,10,810.0,Cartão de Débito,Diego
+181,2026-04-06,Julia,Salvador,BA,Escritório,Luminária,5,180,0,900.0,Cartão de Débito,Diego
+182,2026-01-17,Karen,Salvador,BA,Acessórios,Mousepad,5,40,0,200.0,Pix,Elisa
+183,2026-03-27,Carlos,Rio de Janeiro,RJ,Escritório,Mesa,3,1200,0,3600.0,Cartão de Crédito,Caio
+184,2026-03-21,Sara,São Paulo,SP,Acessórios,Mousepad,4,40,0,160.0,Cartão de Débito,Caio
+185,2026-01-05,Lucas,Salvador,BA,Informática,Mouse,4,80,10,288.0,Boleto,Bianca
+186,2026-02-05,Eduardo,Curitiba,PR,Informática,Monitor,4,900,0,3600.0,Pix,Caio
+187,2026-06-02,Marcos,Rio de Janeiro,RJ,Informática,Mouse,3,80,20,192.0,Cartão de Crédito,Bianca
+188,2026-04-04,Helena,Recife,PE,Informática,Teclado,4,150,0,600.0,Cartão de Débito,Elisa
+189,2026-03-21,Paula,Curitiba,PR,Acessórios,Mousepad,4,40,0,160.0,Cartão de Crédito,Caio
+190,2026-04-08,Rafael,Porto Alegre,RS,Escritório,Luminária,4,180,5,684.0,Cartão de Débito,Bianca
+191,2026-04-06,Sara,Goiânia,GO,Informática,Teclado,3,150,0,450.0,Pix,Elisa
+192,2026-03-11,Otávio,Rio de Janeiro,RJ,Informática,Monitor,1,900,20,720.0,Cartão de Crédito,Diego
+193,2026-04-17,Bruno,Belo Horizonte,MG,Informática,Teclado,4,150,0,600.0,Cartão de Débito,Elisa
+194,2026-02-27,Ana,Salvador,BA,Acessórios,Headset,4,320,0,1280.0,Boleto,Alice
+195,2026-02-05,Bruno,Rio de Janeiro,RJ,Escritório,Luminária,3,180,20,432.0,Boleto,Diego
+196,2026-01-21,Ana,Belo Horizonte,MG,Escritório,Cadeira,4,700,5,2660.0,Boleto,Bianca
+197,2026-03-02,Julia,Porto Alegre,RS,Informática,Notebook,1,3500,20,2800.0,Pix,Alice
+198,2026-01-29,Paula,São Paulo,SP,Informática,Notebook,5,3500,5,16625.0,Pix,Elisa
+199,2026-01-01,Vanessa,Recife,PE,Escritório,Cadeira,2,700,0,1400.0,Boleto,Bianca
+200,2026-05-15,Lucas,São Paulo,SP,Escritório,Mesa,2,1200,15,2040.0,Pix,Elisa
+201,2026-04-10,Paula,Belo Horizonte,MG,Escritório,Luminária,5,180,10,810.0,Pix,Diego
+202,2026-03-30,Helena,São Paulo,SP,Acessórios,Webcam,1,250,0,250.0,Pix,Elisa
+203,2026-05-20,Karen,Salvador,BA,Escritório,Mesa,2,1200,0,2400.0,Cartão de Crédito,Diego
+204,2026-01-17,Otávio,Rio de Janeiro,RJ,Escritório,Mesa,2,1200,20,1920.0,Pix,Caio
+205,2026-03-21,Rafael,Salvador,BA,Informática,Mouse,2,80,0,160.0,Cartão de Débito,Elisa
+206,2026-03-15,Lucas,Curitiba,PR,Acessórios,Webcam,1,250,20,200.0,Pix,Caio
+207,2026-04-23,Marcos,Recife,PE,Acessórios,Headset,3,320,5,912.0,Boleto,Bianca
+208,2026-01-22,Natália,Porto Alegre,RS,Acessórios,Mousepad,4,40,0,160.0,Pix,Diego
+209,2026-01-27,Carlos,Salvador,BA,Escritório,Cadeira,5,700,0,3500.0,Boleto,Caio
+210,2026-02-12,Otávio,Recife,PE,Acessórios,Webcam,5,250,15,1062.5,Boleto,Diego
+211,2026-06-13,Bruno,Porto Alegre,RS,Informática,Monitor,5,900,5,4275.0,Pix,Diego
+212,2026-06-05,Otávio,Rio de Janeiro,RJ,Acessórios,Mousepad,2,40,0,80.0,Pix,Bianca
+213,2026-05-26,Bruno,Recife,PE,Informática,Teclado,3,150,0,450.0,Cartão de Crédito,Diego
+214,2026-05-27,Eduardo,São Paulo,SP,Acessórios,Webcam,4,250,20,800.0,Boleto,Diego
+215,2026-01-07,Fernanda,São Paulo,SP,Acessórios,Mousepad,3,40,0,120.0,Cartão de Débito,Elisa
+216,2026-06-30,Otávio,Porto Alegre,RS,Acessórios,Mousepad,1,40,0,40.0,Cartão de Crédito,Elisa
+217,2026-02-04,Carlos,São Paulo,SP,Acessórios,Mousepad,4,40,0,160.0,Cartão de Débito,Bianca
+218,2026-06-20,Lucas,Salvador,BA,Escritório,Mesa,1,1200,20,960.0,Pix,Elisa
+219,2026-06-29,Fernanda,Rio de Janeiro,RJ,Escritório,Mesa,3,1200,20,2880.0,Boleto,Elisa
+220,2026-03-02,Paula,Rio de Janeiro,RJ,Informática,Mouse,2,80,20,128.0,Pix,Caio
+221,2026-06-06,Carlos,Rio de Janeiro,RJ,Escritório,Luminária,3,180,5,513.0,Pix,Caio
+222,2026-04-15,Tiago,Recife,PE,Acessórios,Mousepad,4,40,10,144.0,Pix,Bianca
+223,2026-06-24,Rafael,Goiânia,GO,Acessórios,Mousepad,1,40,5,38.0,Boleto,Bianca
+224,2026-04-21,Rafael,Rio de Janeiro,RJ,Escritório,Luminária,5,180,0,900.0,Pix,Alice
+225,2026-03-24,Helena,Rio de Janeiro,RJ,Escritório,Cadeira,3,700,0,2100.0,Boleto,Elisa
+226,2026-02-02,Julia,Porto Alegre,RS,Acessórios,Headset,3,320,0,960.0,Pix,Elisa
+227,2026-02-13,Vanessa,Rio de Janeiro,RJ,Escritório,Cadeira,5,700,10,3150.0,Boleto,Elisa
+228,2026-06-16,Gabriel,Porto Alegre,RS,Informática,Mouse,1,80,0,80.0,Cartão de Débito,Elisa
+229,2026-06-14,Julia,Porto Alegre,RS,Escritório,Cadeira,4,700,15,2380.0,Cartão de Débito,Bianca
+230,2026-06-26,Bruno,São Paulo,SP,Escritório,Mesa,3,1200,5,3420.0,Cartão de Crédito,Diego
+231,2026-06-05,Eduardo,Salvador,BA,Acessórios,Webcam,4,250,0,1000.0,Boleto,Caio
+232,2026-05-12,Sara,Salvador,BA,Escritório,Mesa,4,1200,0,4800.0,Pix,Caio
+233,2026-03-05,Eduardo,Goiânia,GO,Informática,Notebook,1,3500,0,3500.0,Pix,Alice
+234,2026-02-10,Karen,Curitiba,PR,Acessórios,Webcam,5,250,5,1187.5,Boleto,Bianca
+235,2026-03-20,Paula,Goiânia,GO,Informática,Notebook,5,3500,5,16625.0,Pix,Alice
+236,2026-05-30,Lucas,Curitiba,PR,Acessórios,Mousepad,4,40,0,160.0,Pix,Alice
+237,2026-03-15,Sara,Goiânia,GO,Acessórios,Webcam,5,250,20,1000.0,Pix,Alice
+238,2026-04-14,Lucas,Salvador,BA,Acessórios,Headset,3,320,15,816.0,Pix,Diego
+239,2026-01-19,Marcos,Porto Alegre,RS,Informática,Teclado,3,150,10,405.0,Cartão de Débito,Elisa
+240,2026-01-25,Marcos,Rio de Janeiro,RJ,Acessórios,Mousepad,5,40,0,200.0,Boleto,Caio
+241,2026-05-09,Bruno,Recife,PE,Escritório,Mesa,2,1200,0,2400.0,Pix,Alice
+242,2026-02-08,Vanessa,Goiânia,GO,Informática,Monitor,4,900,10,3240.0,Cartão de Crédito,Caio
+243,2026-06-01,Karen,Porto Alegre,RS,Escritório,Mesa,2,1200,5,2280.0,Cartão de Débito,Elisa
+244,2026-06-22,Daniela,Salvador,BA,Acessórios,Webcam,1,250,0,250.0,Cartão de Débito,Elisa
+245,2026-03-09,Tiago,Goiânia,GO,Acessórios,Mousepad,1,40,10,36.0,Cartão de Crédito,Alice
+246,2026-02-07,Helena,Recife,PE,Escritório,Mesa,2,1200,10,2160.0,Pix,Elisa
+247,2026-03-22,Natália,Goiânia,GO,Escritório,Cadeira,2,700,0,1400.0,Cartão de Crédito,Diego
+248,2026-01-16,Eduardo,Goiânia,GO,Escritório,Cadeira,4,700,10,2520.0,Cartão de Crédito,Elisa
+249,2026-03-22,Fernanda,Recife,PE,Acessórios,Mousepad,4,40,10,144.0,Cartão de Débito,Elisa
+250,2026-06-06,Paula,Porto Alegre,RS,Acessórios,Mousepad,3,40,15,102.0,Cartão de Crédito,Bianca
+251,2026-03-15,Gabriel,Porto Alegre,RS,Acessórios,Mousepad,3,40,0,120.0,Cartão de Débito,Caio
+252,2026-03-15,Daniela,Porto Alegre,RS,Acessórios,Webcam,5,250,20,1000.0,Cartão de Débito,Diego
+253,2026-01-21,Lucas,Porto Alegre,RS,Acessórios,Headset,3,320,0,960.0,Cartão de Débito,Caio
+254,2026-05-24,Igor,Porto Alegre,RS,Escritório,Mesa,2,1200,0,2400.0,Cartão de Crédito,Alice
+255,2026-01-13,Rafael,Curitiba,PR,Escritório,Luminária,5,180,0,900.0,Cartão de Crédito,Bianca
+256,2026-01-26,Eduardo,Goiânia,GO,Informática,Mouse,4,80,0,320.0,Pix,Elisa
+257,2026-03-15,Karen,Curitiba,PR,Informática,Notebook,4,3500,5,13300.0,Boleto,Alice
+258,2026-02-14,Natália,Belo Horizonte,MG,Informática,Teclado,5,150,15,637.5,Cartão de Crédito,Alice
+259,2026-01-10,Ana,Porto Alegre,RS,Acessórios,Webcam,2,250,15,425.0,Boleto,Elisa
+260,2026-06-14,Sara,Goiânia,GO,Escritório,Cadeira,3,700,0,2100.0,Cartão de Débito,Bianca
+261,2026-03-26,Fernanda,São Paulo,SP,Escritório,Mesa,3,1200,0,3600.0,Cartão de Débito,Caio
+262,2026-03-17,Tiago,Salvador,BA,Escritório,Cadeira,1,700,15,595.0,Cartão de Crédito,Bianca
+263,2026-05-12,Karen,Recife,PE,Escritório,Luminária,4,180,20,576.0,Pix,Diego
+264,2026-03-24,Helena,Goiânia,GO,Escritório,Cadeira,2,700,0,1400.0,Pix,Caio
+265,2026-03-26,Julia,Porto Alegre,RS,Acessórios,Headset,4,320,20,1024.0,Pix,Caio
+266,2026-04-30,Julia,São Paulo,SP,Escritório,Mesa,2,1200,0,2400.0,Cartão de Crédito,Diego
+267,2026-06-13,Julia,São Paulo,SP,Escritório,Luminária,3,180,15,459.0,Boleto,Elisa
+268,2026-04-27,Vanessa,Rio de Janeiro,RJ,Informática,Teclado,2,150,5,285.0,Boleto,Diego
+269,2026-03-05,Vanessa,Curitiba,PR,Escritório,Luminária,4,180,20,576.0,Pix,Elisa
+270,2026-01-16,Sara,São Paulo,SP,Acessórios,Mousepad,3,40,0,120.0,Cartão de Crédito,Elisa
+271,2026-01-30,Gabriel,Goiânia,GO,Escritório,Cadeira,2,700,0,1400.0,Cartão de Débito,Alice
+272,2026-05-12,Natália,Rio de Janeiro,RJ,Escritório,Mesa,1,1200,5,1140.0,Cartão de Débito,Elisa
+273,2026-04-12,Igor,Belo Horizonte,MG,Informática,Notebook,3,3500,15,8925.0,Pix,Bianca
+274,2026-06-29,Carlos,Salvador,BA,Escritório,Cadeira,1,700,5,665.0,Pix,Alice
+275,2026-02-04,Natália,Rio de Janeiro,RJ,Acessórios,Headset,3,320,5,912.0,Boleto,Diego
+276,2026-06-17,Lucas,Rio de Janeiro,RJ,Acessórios,Webcam,4,250,0,1000.0,Pix,Bianca
+277,2026-01-01,Ana,Curitiba,PR,Escritório,Mesa,5,1200,0,6000.0,Boleto,Diego
+278,2026-02-28,Helena,Recife,PE,Escritório,Luminária,5,180,5,855.0,Cartão de Débito,Caio
+279,2026-01-09,Natália,São Paulo,SP,Informática,Monitor,2,900,15,1530.0,Pix,Bianca
+280,2026-04-25,Vanessa,Belo Horizonte,MG,Informática,Mouse,1,80,10,72.0,Pix,Bianca
+281,2026-05-19,Gabriel,Curitiba,PR,Escritório,Cadeira,4,700,5,2660.0,Pix,Bianca
+282,2026-05-28,Vanessa,Salvador,BA,Escritório,Mesa,2,1200,20,1920.0,Boleto,Bianca
+283,2026-03-18,Igor,Recife,PE,Acessórios,Headset,5,320,0,1600.0,Pix,Elisa
+284,2026-05-23,Paula,Recife,PE,Escritório,Luminária,2,180,15,306.0,Pix,Caio
+285,2026-06-28,Natália,Salvador,BA,Escritório,Luminária,4,180,20,576.0,Cartão de Débito,Bianca
+286,2026-03-03,Helena,Goiânia,GO,Acessórios,Webcam,2,250,20,400.0,Boleto,Bianca
+287,2026-05-23,Rafael,Recife,PE,Acessórios,Headset,5,320,5,1520.0,Cartão de Crédito,Diego
+288,2026-04-26,Lucas,São Paulo,SP,Informática,Monitor,2,900,0,1800.0,Pix,Elisa
+289,2026-06-22,Vanessa,Recife,PE,Escritório,Cadeira,1,700,0,700.0,Pix,Alice
+290,2026-03-19,Ana,Salvador,BA,Informática,Teclado,4,150,0,600.0,Cartão de Crédito,Bianca
+291,2026-04-12,Helena,Curitiba,PR,Escritório,Cadeira,4,700,0,2800.0,Boleto,Caio
+292,2026-03-20,Igor,Salvador,BA,Acessórios,Webcam,5,250,15,1062.5,Boleto,Elisa
+293,2026-03-23,Gabriel,Goiânia,GO,Acessórios,Webcam,1,250,20,200.0,Boleto,Caio
+294,2026-02-07,Ana,Curitiba,PR,Acessórios,Headset,5,320,20,1280.0,Boleto,Elisa
+295,2026-02-20,Karen,Rio de Janeiro,RJ,Escritório,Luminária,4,180,0,720.0,Cartão de Crédito,Diego
+296,2026-03-07,Paula,Salvador,BA,Escritório,Cadeira,4,700,10,2520.0,Cartão de Débito,Diego
+297,2026-02-17,Sara,Goiânia,GO,Informática,Monitor,2,900,0,1800.0,Pix,Elisa
+298,2026-04-16,Eduardo,Belo Horizonte,MG,Informática,Mouse,1,80,20,64.0,Cartão de Crédito,Alice
+299,2026-04-06,Bruno,Goiânia,GO,Escritório,Cadeira,1,700,0,700.0,Cartão de Débito,Diego
+300,2026-01-04,Ana,Recife,PE,Informática,Mouse,5,80,10,360.0,Boleto,Elisa
+301,2026-02-15,Daniela,Recife,PE,Acessórios,Headset,5,320,20,1280.0,Pix,Elisa
+302,2026-04-01,Igor,Porto Alegre,RS,Informática,Teclado,2,150,10,270.0,Cartão de Débito,Alice
+303,2026-06-28,Helena,Curitiba,PR,Acessórios,Webcam,4,250,10,900.0,Boleto,Alice
+304,2026-04-08,Marcos,Recife,PE,Escritório,Luminária,1,180,0,180.0,Cartão de Débito,Alice
+305,2026-04-22,Karen,Goiânia,GO,Escritório,Cadeira,2,700,0,1400.0,Pix,Elisa
+306,2026-03-11,Bruno,Goiânia,GO,Informática,Teclado,2,150,20,240.0,Pix,Caio
+307,2026-01-05,Gabriel,Salvador,BA,Escritório,Luminária,1,180,0,180.0,Cartão de Crédito,Diego
+308,2026-05-26,Marcos,Curitiba,PR,Informática,Monitor,2,900,10,1620.0,Boleto,Diego
+309,2026-01-14,Daniela,Salvador,BA,Escritório,Cadeira,1,700,10,630.0,Cartão de Débito,Bianca
+310,2026-03-25,Ana,Recife,PE,Informática,Monitor,5,900,20,3600.0,Boleto,Diego
+311,2026-04-21,Fernanda,Recife,PE,Acessórios,Headset,3,320,10,864.0,Cartão de Débito,Alice
+312,2026-01-22,Igor,São Paulo,SP,Escritório,Mesa,2,1200,15,2040.0,Cartão de Crédito,Diego
+313,2026-03-23,Lucas,Recife,PE,Escritório,Luminária,2,180,15,306.0,Pix,Alice
+314,2026-01-27,Eduardo,Porto Alegre,RS,Informática,Monitor,4,900,0,3600.0,Pix,Bianca
+315,2026-01-27,Ana,Recife,PE,Acessórios,Webcam,5,250,10,1125.0,Pix,Caio
+316,2026-04-09,Ana,Salvador,BA,Escritório,Cadeira,5,700,10,3150.0,Boleto,Diego
+317,2026-06-25,Marcos,Rio de Janeiro,RJ,Acessórios,Headset,5,320,0,1600.0,Cartão de Crédito,Bianca
+318,2026-01-17,Fernanda,Rio de Janeiro,RJ,Acessórios,Webcam,3,250,5,712.5,Cartão de Débito,Caio
+319,2026-04-03,Igor,São Paulo,SP,Acessórios,Webcam,4,250,20,800.0,Cartão de Crédito,Diego
+320,2026-02-04,Julia,São Paulo,SP,Escritório,Luminária,2,180,5,342.0,Pix,Diego
+321,2026-04-23,Karen,Salvador,BA,Acessórios,Mousepad,4,40,20,128.0,Cartão de Débito,Elisa
+322,2026-05-03,Karen,Curitiba,PR,Informática,Monitor,3,900,10,2430.0,Cartão de Crédito,Diego
+323,2026-03-25,Marcos,Curitiba,PR,Acessórios,Webcam,4,250,10,900.0,Boleto,Diego
+324,2026-06-24,Sara,Rio de Janeiro,RJ,Acessórios,Headset,5,320,0,1600.0,Pix,Diego
+325,2026-06-27,Carlos,Porto Alegre,RS,Escritório,Cadeira,4,700,20,2240.0,Cartão de Débito,Diego
+326,2026-04-19,Marcos,Rio de Janeiro,RJ,Informática,Monitor,2,900,0,1800.0,Pix,Diego
+327,2026-05-20,Bruno,Recife,PE,Escritório,Mesa,5,1200,5,5700.0,Boleto,Elisa
+328,2026-06-18,Lucas,Curitiba,PR,Escritório,Luminária,1,180,0,180.0,Cartão de Crédito,Elisa
+329,2026-01-28,Ana,Recife,PE,Informática,Notebook,3,3500,20,8400.0,Pix,Caio
+330,2026-04-29,Tiago,Recife,PE,Informática,Teclado,4,150,0,600.0,Cartão de Crédito,Caio
+331,2026-01-22,Daniela,Recife,PE,Informática,Notebook,1,3500,0,3500.0,Cartão de Crédito,Caio
+332,2026-05-14,Paula,Curitiba,PR,Acessórios,Webcam,4,250,20,800.0,Boleto,Diego
+333,2026-03-18,Bruno,São Paulo,SP,Informática,Notebook,4,3500,0,14000.0,Pix,Alice
+334,2026-03-04,Rafael,Rio de Janeiro,RJ,Acessórios,Mousepad,1,40,15,34.0,Cartão de Crédito,Elisa
+335,2026-03-01,Marcos,Goiânia,GO,Informática,Monitor,5,900,5,4275.0,Cartão de Crédito,Bianca
+336,2026-06-07,Gabriel,Belo Horizonte,MG,Escritório,Luminária,4,180,5,684.0,Cartão de Débito,Elisa
+337,2026-02-22,Igor,Curitiba,PR,Acessórios,Webcam,1,250,15,212.5,Pix,Elisa
+338,2026-04-28,Daniela,Curitiba,PR,Informática,Teclado,3,150,0,450.0,Boleto,Diego
+339,2026-06-06,Marcos,Recife,PE,Escritório,Luminária,3,180,10,486.0,Pix,Caio
+340,2026-06-07,Tiago,Porto Alegre,RS,Acessórios,Webcam,5,250,0,1250.0,Pix,Bianca
+341,2026-02-16,Lucas,São Paulo,SP,Acessórios,Headset,2,320,0,640.0,Cartão de Crédito,Elisa
+342,2026-04-19,Fernanda,Recife,PE,Acessórios,Webcam,5,250,0,1250.0,Cartão de Débito,Elisa
+343,2026-05-06,Julia,Rio de Janeiro,RJ,Escritório,Luminária,2,180,10,324.0,Cartão de Crédito,Bianca
+344,2026-01-03,Paula,Salvador,BA,Acessórios,Webcam,5,250,0,1250.0,Cartão de Crédito,Bianca
+345,2026-04-15,Paula,Goiânia,GO,Acessórios,Mousepad,5,40,15,170.0,Cartão de Débito,Diego
+346,2026-02-26,Julia,Belo Horizonte,MG,Acessórios,Headset,1,320,10,288.0,Pix,Caio
+347,2026-05-25,Paula,Goiânia,GO,Informática,Monitor,2,900,20,1440.0,Pix,Elisa
+348,2026-05-19,Bruno,Salvador,BA,Informática,Monitor,5,900,20,3600.0,Cartão de Débito,Elisa
+349,2026-03-18,Bruno,Curitiba,PR,Informática,Notebook,1,3500,15,2975.0,Cartão de Débito,Caio
+350,2026-03-02,Gabriel,São Paulo,SP,Acessórios,Headset,4,320,20,1024.0,Boleto,Elisa
+351,2026-02-22,Gabriel,Rio de Janeiro,RJ,Escritório,Mesa,2,1200,10,2160.0,Pix,Elisa
+352,2026-03-24,Julia,Rio de Janeiro,RJ,Acessórios,Mousepad,3,40,10,108.0,Boleto,Elisa
+353,2026-01-16,Igor,Recife,PE,Acessórios,Mousepad,1,40,0,40.0,Cartão de Crédito,Bianca
+354,2026-06-23,Marcos,Curitiba,PR,Informática,Teclado,3,150,20,360.0,Cartão de Débito,Bianca
+355,2026-04-07,Otávio,Recife,PE,Escritório,Luminária,3,180,15,459.0,Pix,Alice
+356,2026-04-27,Paula,Salvador,BA,Acessórios,Mousepad,3,40,15,102.0,Boleto,Elisa
+357,2026-01-17,Sara,Salvador,BA,Informática,Mouse,4,80,15,272.0,Cartão de Débito,Bianca
+358,2026-03-14,Karen,Salvador,BA,Acessórios,Headset,4,320,0,1280.0,Cartão de Crédito,Elisa
+359,2026-06-10,Otávio,São Paulo,SP,Acessórios,Webcam,1,250,0,250.0,Pix,Alice
+360,2026-02-21,Eduardo,Recife,PE,Informática,Notebook,4,3500,0,14000.0,Boleto,Bianca
+361,2026-04-06,Fernanda,São Paulo,SP,Acessórios,Headset,3,320,0,960.0,Pix,Diego
+362,2026-06-30,Daniela,São Paulo,SP,Escritório,Mesa,2,1200,5,2280.0,Pix,Bianca
+363,2026-05-13,Otávio,Curitiba,PR,Acessórios,Headset,2,320,10,576.0,Pix,Alice
+364,2026-06-27,Eduardo,Recife,PE,Escritório,Mesa,1,1200,20,960.0,Cartão de Débito,Alice
+365,2026-01-27,Karen,São Paulo,SP,Informática,Notebook,1,3500,15,2975.0,Boleto,Caio
+366,2026-01-18,Rafael,Rio de Janeiro,RJ,Informática,Notebook,2,3500,15,5950.0,Pix,Elisa
+367,2026-06-10,Eduardo,Curitiba,PR,Escritório,Cadeira,4,700,0,2800.0,Cartão de Débito,Elisa
+368,2026-02-05,Daniela,São Paulo,SP,Escritório,Mesa,2,1200,0,2400.0,Cartão de Débito,Caio
+369,2026-06-15,Carlos,Porto Alegre,RS,Acessórios,Webcam,2,250,0,500.0,Cartão de Crédito,Elisa
+370,2026-06-18,Julia,Belo Horizonte,MG,Escritório,Luminária,5,180,0,900.0,Cartão de Crédito,Elisa
+371,2026-03-17,Bruno,Recife,PE,Escritório,Luminária,2,180,15,306.0,Cartão de Crédito,Diego
+372,2026-05-16,Ana,São Paulo,SP,Acessórios,Headset,2,320,5,608.0,Boleto,Caio
+373,2026-05-20,Fernanda,Salvador,BA,Informática,Notebook,5,3500,5,16625.0,Cartão de Débito,Alice
+374,2026-01-11,Bruno,Curitiba,PR,Informática,Mouse,1,80,0,80.0,Cartão de Débito,Elisa
+375,2026-04-19,Marcos,Recife,PE,Acessórios,Mousepad,5,40,20,160.0,Pix,Elisa
+376,2026-03-21,Carlos,São Paulo,SP,Escritório,Luminária,2,180,0,360.0,Cartão de Crédito,Bianca
+377,2026-03-21,Natália,São Paulo,SP,Escritório,Mesa,4,1200,10,4320.0,Cartão de Crédito,Alice
+378,2026-06-06,Vanessa,Goiânia,GO,Informática,Mouse,4,80,0,320.0,Pix,Caio
+379,2026-02-05,Ana,Belo Horizonte,MG,Escritório,Luminária,2,180,0,360.0,Cartão de Crédito,Diego
+380,2026-02-12,Lucas,Porto Alegre,RS,Acessórios,Mousepad,5,40,20,160.0,Cartão de Crédito,Caio
+381,2026-03-11,Rafael,Recife,PE,Escritório,Cadeira,1,700,0,700.0,Pix,Caio
+382,2026-05-11,Lucas,Goiânia,GO,Escritório,Luminária,1,180,5,171.0,Pix,Diego
+383,2026-01-27,Tiago,Porto Alegre,RS,Escritório,Cadeira,3,700,0,2100.0,Pix,Bianca
+384,2026-03-04,Bruno,Belo Horizonte,MG,Escritório,Luminária,1,180,0,180.0,Cartão de Débito,Caio
+385,2026-05-22,Natália,Belo Horizonte,MG,Acessórios,Headset,2,320,20,512.0,Cartão de Crédito,Caio
+386,2026-05-27,Lucas,São Paulo,SP,Informática,Notebook,3,3500,0,10500.0,Pix,Elisa
+387,2026-04-13,Carlos,Belo Horizonte,MG,Escritório,Cadeira,2,700,0,1400.0,Cartão de Débito,Caio
+388,2026-01-03,Lucas,Goiânia,GO,Acessórios,Webcam,1,250,10,225.0,Cartão de Crédito,Caio
+389,2026-04-05,Tiago,Goiânia,GO,Escritório,Mesa,5,1200,0,6000.0,Cartão de Débito,Bianca
+390,2026-04-15,Ana,Belo Horizonte,MG,Escritório,Luminária,2,180,0,360.0,Cartão de Crédito,Elisa
+391,2026-06-18,Marcos,Belo Horizonte,MG,Acessórios,Mousepad,1,40,0,40.0,Boleto,Alice
+392,2026-02-06,Igor,Belo Horizonte,MG,Informática,Teclado,4,150,5,570.0,Pix,Alice
+393,2026-05-29,Daniela,São Paulo,SP,Informática,Notebook,3,3500,5,9975.0,Cartão de Crédito,Diego
+394,2026-03-02,Julia,Rio de Janeiro,RJ,Informática,Mouse,4,80,15,272.0,Boleto,Caio
+395,2026-03-11,Helena,Goiânia,GO,Acessórios,Mousepad,3,40,0,120.0,Pix,Bianca
+396,2026-04-26,Otávio,Rio de Janeiro,RJ,Informática,Mouse,2,80,0,160.0,Boleto,Diego
+397,2026-04-29,Igor,Porto Alegre,RS,Informática,Monitor,2,900,5,1710.0,Pix,Alice
+398,2026-03-25,Eduardo,Curitiba,PR,Informática,Monitor,5,900,0,4500.0,Pix,Bianca
+399,2026-03-08,Fernanda,Porto Alegre,RS,Acessórios,Webcam,5,250,0,1250.0,Pix,Diego
+400,2026-04-29,Daniela,São Paulo,SP,Acessórios,Mousepad,5,40,0,200.0,Cartão de Crédito,Alice
+401,2026-04-13,Lucas,Curitiba,PR,Informática,Mouse,2,80,0,160.0,Pix,Elisa
+402,2026-02-20,Otávio,São Paulo,SP,Escritório,Mesa,1,1200,0,1200.0,Cartão de Crédito,Alice
+403,2026-02-13,Tiago,Belo Horizonte,MG,Acessórios,Headset,1,320,5,304.0,Cartão de Débito,Diego
+404,2026-02-14,Lucas,Recife,PE,Acessórios,Headset,4,320,15,1088.0,Cartão de Crédito,Bianca
+405,2026-06-07,Vanessa,Belo Horizonte,MG,Acessórios,Webcam,4,250,0,1000.0,Cartão de Crédito,Caio
+406,2026-01-23,Igor,Belo Horizonte,MG,Acessórios,Webcam,5,250,5,1187.5,Cartão de Débito,Bianca
+407,2026-04-08,Lucas,Belo Horizonte,MG,Acessórios,Headset,5,320,0,1600.0,Cartão de Débito,Elisa
+408,2026-04-10,Igor,Salvador,BA,Acessórios,Webcam,5,250,10,1125.0,Cartão de Crédito,Alice
+409,2026-01-15,Paula,Porto Alegre,RS,Acessórios,Mousepad,2,40,0,80.0,Boleto,Elisa
+410,2026-03-10,Sara,Curitiba,PR,Informática,Teclado,1,150,0,150.0,Pix,Bianca
+411,2026-02-15,Helena,Rio de Janeiro,RJ,Escritório,Mesa,3,1200,20,2880.0,Boleto,Caio
+412,2026-05-25,Gabriel,Rio de Janeiro,RJ,Escritório,Cadeira,3,700,10,1890.0,Cartão de Débito,Elisa
+413,2026-01-15,Helena,São Paulo,SP,Acessórios,Headset,4,320,0,1280.0,Cartão de Crédito,Alice
+414,2026-02-03,Karen,Curitiba,PR,Escritório,Mesa,1,1200,0,1200.0,Cartão de Crédito,Caio
+415,2026-01-29,Rafael,Rio de Janeiro,RJ,Informática,Mouse,2,80,10,144.0,Boleto,Alice
+416,2026-03-28,Julia,São Paulo,SP,Acessórios,Mousepad,4,40,10,144.0,Boleto,Bianca
+417,2026-02-14,Sara,Salvador,BA,Informática,Notebook,4,3500,15,11900.0,Boleto,Bianca
+418,2026-06-26,Julia,Porto Alegre,RS,Escritório,Luminária,2,180,5,342.0,Cartão de Crédito,Bianca
+419,2026-02-16,Vanessa,Belo Horizonte,MG,Escritório,Cadeira,5,700,5,3325.0,Boleto,Elisa
+420,2026-01-20,Helena,Salvador,BA,Informática,Mouse,4,80,0,320.0,Boleto,Caio
+421,2026-03-09,Gabriel,Belo Horizonte,MG,Informática,Mouse,3,80,5,228.0,Cartão de Crédito,Alice
+422,2026-01-13,Marcos,Belo Horizonte,MG,Acessórios,Webcam,1,250,15,212.5,Cartão de Débito,Diego
+423,2026-05-20,Marcos,Salvador,BA,Informática,Notebook,4,3500,5,13300.0,Pix,Diego
+424,2026-01-19,Bruno,Goiânia,GO,Escritório,Luminária,2,180,0,360.0,Boleto,Alice
+425,2026-02-13,Marcos,Salvador,BA,Acessórios,Webcam,1,250,0,250.0,Cartão de Crédito,Alice
+426,2026-06-30,Ana,Goiânia,GO,Escritório,Cadeira,3,700,10,1890.0,Cartão de Débito,Bianca
+427,2026-03-26,Gabriel,São Paulo,SP,Escritório,Mesa,2,1200,0,2400.0,Cartão de Crédito,Diego
+428,2026-03-18,Helena,Porto Alegre,RS,Escritório,Luminária,5,180,0,900.0,Pix,Alice
+429,2026-02-09,Bruno,Goiânia,GO,Acessórios,Mousepad,5,40,20,160.0,Boleto,Alice
+430,2026-02-21,Daniela,Goiânia,GO,Acessórios,Headset,3,320,20,768.0,Pix,Bianca
+431,2026-03-20,Marcos,São Paulo,SP,Informática,Monitor,1,900,5,855.0,Cartão de Débito,Diego
+432,2026-02-17,Lucas,Recife,PE,Escritório,Mesa,1,1200,15,1020.0,Cartão de Débito,Caio
+433,2026-04-30,Igor,Goiânia,GO,Informática,Notebook,1,3500,0,3500.0,Cartão de Crédito,Caio
+434,2026-01-22,Lucas,São Paulo,SP,Escritório,Cadeira,2,700,20,1120.0,Cartão de Débito,Elisa
+435,2026-05-18,Paula,Recife,PE,Informática,Mouse,4,80,20,256.0,Cartão de Crédito,Diego
+436,2026-05-09,Tiago,Belo Horizonte,MG,Acessórios,Headset,4,320,20,1024.0,Cartão de Crédito,Alice
+437,2026-02-02,Bruno,Curitiba,PR,Acessórios,Headset,2,320,0,640.0,Cartão de Débito,Alice
+438,2026-06-02,Igor,Rio de Janeiro,RJ,Escritório,Mesa,2,1200,20,1920.0,Boleto,Alice
+439,2026-03-12,Rafael,Salvador,BA,Informática,Notebook,5,3500,5,16625.0,Cartão de Débito,Alice
+440,2026-01-29,Natália,Recife,PE,Escritório,Luminária,5,180,10,810.0,Cartão de Crédito,Bianca
+441,2026-01-28,Tiago,São Paulo,SP,Escritório,Luminária,5,180,20,720.0,Pix,Caio
+442,2026-06-17,Paula,Recife,PE,Escritório,Mesa,4,1200,0,4800.0,Cartão de Débito,Alice
+443,2026-01-10,Marcos,Recife,PE,Informática,Monitor,4,900,0,3600.0,Boleto,Bianca
+444,2026-03-28,Julia,Belo Horizonte,MG,Informática,Notebook,3,3500,0,10500.0,Boleto,Caio
+445,2026-02-04,Julia,Curitiba,PR,Acessórios,Mousepad,1,40,20,32.0,Cartão de Débito,Caio
+446,2026-02-18,Otávio,São Paulo,SP,Acessórios,Mousepad,4,40,10,144.0,Cartão de Crédito,Diego
+447,2026-01-15,Rafael,Salvador,BA,Escritório,Mesa,5,1200,20,4800.0,Cartão de Crédito,Alice
+448,2026-05-15,Tiago,Rio de Janeiro,RJ,Acessórios,Mousepad,5,40,5,190.0,Pix,Bianca
+449,2026-04-27,Bruno,Belo Horizonte,MG,Informática,Teclado,1,150,0,150.0,Boleto,Bianca
+450,2026-06-12,Daniela,Recife,PE,Acessórios,Webcam,4,250,10,900.0,Pix,Bianca
+451,2026-05-02,Tiago,Rio de Janeiro,RJ,Acessórios,Webcam,5,250,5,1187.5,Boleto,Caio
+452,2026-04-09,Bruno,Belo Horizonte,MG,Informática,Monitor,1,900,0,900.0,Cartão de Crédito,Elisa
+453,2026-03-10,Natália,Curitiba,PR,Informática,Teclado,2,150,15,255.0,Pix,Alice
+454,2026-02-27,Igor,Belo Horizonte,MG,Acessórios,Headset,2,320,10,576.0,Boleto,Caio
+455,2026-02-25,Otávio,Porto Alegre,RS,Acessórios,Webcam,3,250,5,712.5,Boleto,Elisa
+456,2026-05-11,Lucas,Belo Horizonte,MG,Escritório,Mesa,5,1200,0,6000.0,Boleto,Caio
+457,2026-03-12,Karen,Salvador,BA,Escritório,Cadeira,4,700,0,2800.0,Boleto,Caio
+458,2026-05-13,Helena,Rio de Janeiro,RJ,Escritório,Luminária,3,180,0,540.0,Pix,Elisa
+459,2026-01-07,Paula,Rio de Janeiro,RJ,Acessórios,Mousepad,3,40,15,102.0,Boleto,Caio
+460,2026-05-30,Tiago,Belo Horizonte,MG,Acessórios,Webcam,4,250,15,850.0,Cartão de Crédito,Caio
+461,2026-06-21,Lucas,Goiânia,GO,Escritório,Luminária,2,180,15,306.0,Boleto,Bianca
+462,2026-05-01,Eduardo,São Paulo,SP,Escritório,Luminária,2,180,0,360.0,Boleto,Elisa
+463,2026-02-27,Julia,Salvador,BA,Informática,Monitor,1,900,0,900.0,Cartão de Débito,Caio
+464,2026-01-31,Paula,Goiânia,GO,Acessórios,Webcam,5,250,0,1250.0,Pix,Elisa
+465,2026-05-09,Daniela,Curitiba,PR,Escritório,Luminária,1,180,5,171.0,Cartão de Débito,Elisa
+466,2026-02-05,Gabriel,Rio de Janeiro,RJ,Acessórios,Webcam,1,250,20,200.0,Boleto,Diego
+467,2026-01-21,Paula,Rio de Janeiro,RJ,Escritório,Mesa,2,1200,0,2400.0,Boleto,Bianca
+468,2026-03-12,Gabriel,Goiânia,GO,Acessórios,Mousepad,1,40,0,40.0,Cartão de Crédito,Elisa
+469,2026-06-12,Natália,Recife,PE,Informática,Notebook,1,3500,0,3500.0,Cartão de Débito,Diego
+470,2026-04-06,Ana,Curitiba,PR,Acessórios,Webcam,1,250,0,250.0,Boleto,Elisa
+471,2026-02-27,Lucas,Curitiba,PR,Informática,Mouse,1,80,15,68.0,Boleto,Bianca
+472,2026-02-12,Carlos,Porto Alegre,RS,Informática,Notebook,5,3500,10,15750.0,Pix,Caio
+473,2026-04-22,Eduardo,Salvador,BA,Acessórios,Webcam,5,250,10,1125.0,Boleto,Diego
+474,2026-01-05,Helena,Recife,PE,Acessórios,Headset,2,320,20,512.0,Cartão de Crédito,Bianca
+475,2026-02-01,Lucas,Rio de Janeiro,RJ,Informática,Mouse,5,80,10,360.0,Pix,Diego
+476,2026-06-02,Bruno,Belo Horizonte,MG,Escritório,Mesa,5,1200,10,5400.0,Pix,Alice
+477,2026-02-01,Sara,Recife,PE,Informática,Mouse,4,80,5,304.0,Boleto,Diego
+478,2026-03-19,Natália,Belo Horizonte,MG,Escritório,Cadeira,2,700,15,1190.0,Pix,Elisa
+479,2026-04-18,Daniela,Rio de Janeiro,RJ,Acessórios,Mousepad,5,40,15,170.0,Pix,Caio
+480,2026-03-09,Rafael,Curitiba,PR,Informática,Mouse,4,80,0,320.0,Cartão de Crédito,Caio
+481,2026-05-21,Paula,Belo Horizonte,MG,Escritório,Mesa,3,1200,0,3600.0,Cartão de Crédito,Diego
+482,2026-01-29,Tiago,São Paulo,SP,Acessórios,Headset,1,320,0,320.0,Cartão de Débito,Bianca
+483,2026-04-27,Julia,Curitiba,PR,Informática,Mouse,1,80,0,80.0,Boleto,Diego
+484,2026-03-16,Lucas,Belo Horizonte,MG,Informática,Mouse,2,80,20,128.0,Boleto,Diego
+485,2026-01-03,Eduardo,Belo Horizonte,MG,Escritório,Cadeira,1,700,20,560.0,Cartão de Crédito,Caio
+486,2026-04-06,Karen,São Paulo,SP,Acessórios,Webcam,5,250,0,1250.0,Cartão de Crédito,Alice
+487,2026-06-26,Paula,Recife,PE,Acessórios,Webcam,4,250,0,1000.0,Cartão de Débito,Bianca
+488,2026-01-27,Natália,Rio de Janeiro,RJ,Informática,Teclado,1,150,20,120.0,Cartão de Débito,Elisa
+489,2026-04-02,Vanessa,Recife,PE,Escritório,Mesa,2,1200,10,2160.0,Pix,Bianca
+490,2026-01-12,Carlos,Goiânia,GO,Acessórios,Webcam,1,250,5,237.5,Boleto,Caio
+491,2026-04-21,Helena,São Paulo,SP,Informática,Teclado,3,150,10,405.0,Cartão de Débito,Caio
+492,2026-01-03,Fernanda,Belo Horizonte,MG,Escritório,Luminária,4,180,0,720.0,Cartão de Débito,Diego
+493,2026-03-26,Igor,Curitiba,PR,Informática,Mouse,4,80,0,320.0,Pix,Elisa
+494,2026-01-21,Otávio,Curitiba,PR,Informática,Notebook,4,3500,20,11200.0,Cartão de Débito,Elisa
+495,2026-01-31,Paula,Salvador,BA,Acessórios,Headset,4,320,5,1216.0,Pix,Alice
+496,2026-01-24,Vanessa,Belo Horizonte,MG,Acessórios,Webcam,1,250,10,225.0,Boleto,Elisa
+497,2026-01-14,Helena,Salvador,BA,Escritório,Cadeira,4,700,0,2800.0,Cartão de Débito,Caio
+498,2026-04-26,Daniela,Salvador,BA,Escritório,Luminária,5,180,5,855.0,Pix,Bianca
+499,2026-05-21,Rafael,Porto Alegre,RS,Informática,Monitor,3,900,20,2160.0,Boleto,Alice
+500,2026-01-28,Igor,Recife,PE,Informática,Teclado,4,150,0,600.0,Cartão de Crédito,Bianca
