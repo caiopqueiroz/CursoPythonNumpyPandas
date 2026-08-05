@@ -24,7 +24,7 @@ print(df)
 df['Preço com desconto'] = df['Preço'] * 0.7
 print(df)
 
-# Preço com frente
+# Preço com frete
 df['Preço com frete'] = df['Preço'] + 20
 print(df)
 
