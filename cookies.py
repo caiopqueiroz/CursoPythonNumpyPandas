@@ -58,6 +58,6 @@ while comando != 5:
         df_pendente = df[df['Situação'] == 'Pendente']
         if not df_pendente.empty:
             print()
-            print(df_pendente[['Cliente', 'Quantidade_50g', 'Quantidade_100g']])
+            print(df_pendente[['Cliente', 'Quantidade_50g', 'Quantidade_100g',  'Data']])
         else:
             print('\nNenhuma encomenda pendente')
