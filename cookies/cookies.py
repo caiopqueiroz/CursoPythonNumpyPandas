@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv('dados_cookies.csv')
-gastos = pd.read_csv('dados_gastos_cookies.csv')
+df = pd.read_csv('cookies/dados_cookies.csv')
+gastos = pd.read_csv('cookies/dados_gastos_cookies.csv')
 
 # Criando o restante das colunas 
 df['Valor_50g'] = df['Quantidade_50g'] * 5
