@@ -1,4 +1,4 @@
-# Importando um banc ode dados de um arquivo JSON
+# Importando um banco de dados de um arquivo JSON
 import pandas as pd
 import json
 
