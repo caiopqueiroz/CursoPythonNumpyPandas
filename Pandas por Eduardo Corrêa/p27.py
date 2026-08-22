@@ -50,5 +50,5 @@ print(
     df[df['tempo'] > df['tempo'].mean()].sort_values('tempo')
 )
 
-# Usando a função rank() com o parâmetro method = 'min' para que nadadores com tempos iguais recebem a mesma classificação (próximo número mínimo disponível) - nessa visualização, a identificação de cada nadador é feita pela coluna index, que é a raia
+# Usando a função rank() com o parâmetro method = 'min' para que nadadores com tempos iguais recebam a mesma classificação (próximo número mínimo disponível) - nessa visualização, a identificação de cada nadador é feita pela coluna index, que é a raia
 print(df['tempo'].rank(method = 'min').sort_values())
